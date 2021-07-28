@@ -35,7 +35,7 @@ h1 {
     border-radius: 10px;
     font-weight: 700;
     text-decoration: none;
-    background-image: linear-gradient(to right, #aba24f, #ff1e1e);
+    background-image: linear-gradient(to right, #fba24f, #ff1e1e);
 }
 .about-section {
     background: url(/images/shapes/about.png) center/cover no-repeat;
