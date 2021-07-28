@@ -4,7 +4,7 @@ body {
 }
 .header-area {
     padding: 60px 0;
-    background: url(/images/shapes/Frame\ 59.jpg) center center/cover no-repeat;
+    background: url(/images/shapes/header.jpg) center center/cover no-repeat;
 }
 .flex-container {
     display: flex;
@@ -38,7 +38,7 @@ h1 {
     background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
 }
 .about-section {
-    background: url(/images/shapes/7.png) center/cover no-repeat;
+    background: url(/images/shapes/about.png) center/cover no-repeat;
 }
 .half-width .about-img {
     width: 50%;
