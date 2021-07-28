@@ -4,7 +4,7 @@ body {
 }
 .header-area {
     padding: 60px 0;
-    background: url(./images/shapes/header.jpg) center/cover no-repeat;
+    background: url(/images/shapes/header.jpg) center/cover no-repeat;
 }
 .flex-container {
     display: flex;
