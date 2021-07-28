@@ -2,12 +2,12 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+section {
+    margin-bottom: 60px;
+}
 .header-area {
     padding: 60px 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../images/shapes/header.jpg);
+    background: url(../images/shapes/header.jpg) center/cover no-repeat;
 }
 .flex-container {
     display: flex;
@@ -34,17 +34,15 @@ h1 {
 }
 .order-food-btn {
     color:#fff;
+    font-weight: 700;
     padding: 10px 30px;
     border-radius: 10px;
-    font-weight: 700;
+    display: inline-block;
     text-decoration: none;
     background-image: linear-gradient(to right, #fba24f, #ff1e1e);
 }
 .about-section {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../images/shapes/about.png) ;
+    background: url(../images/shapes/about.png) center/cover no-repeat;
 }
 .half-width .about-img {
     width: 50%;
@@ -55,7 +53,7 @@ h1 {
 .about-text {
     margin-top: 180px;
 }
-.recipe-top-content {
+.text-center {
     text-align: center;
     margin-bottom: 40px;
 }
@@ -70,6 +68,7 @@ h1 {
 }
 .card img {
     width: 100%;
+    border-radius: 36px;
 }
 .social-stats {
     padding: 20px;
@@ -81,6 +80,22 @@ h1 {
 .stats {
     width: 30%;
     text-align: center;
+}
+.gallery-images {
+    justify-content: space-evenly;
+}
+.image {
+    width: 25%;
+    padding: 10px 15px;
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.image:hover {
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+    transition: 1s;
 }
 .footer-area {
     color: #fff;
