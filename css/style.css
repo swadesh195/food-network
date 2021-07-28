@@ -4,7 +4,10 @@ body {
 }
 .header-area {
     padding: 60px 0;
-    background: url(/images/shapes/header.jpg) center/cover no-repeat;
+    background-repeat: no-repeat;
+    border-style: cover;
+    background-position: center;
+    background-image: url(/images/shapes/header.jpg);
 }
 .flex-container {
     display: flex;
@@ -38,7 +41,10 @@ h1 {
     background-image: linear-gradient(to right, #fba24f, #ff1e1e);
 }
 .about-section {
-    background: url(/images/shapes/about.png) center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/images/shapes/about.png) ;
 }
 .half-width .about-img {
     width: 50%;
