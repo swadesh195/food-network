@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-area {
+    padding: 60px 0;
+    background: url(/images/shapes/Frame\ 59.jpg) center center/cover no-repeat;
+}
+.flex-container {
+    display: flex;
+}
+.header-text {
+    margin-top: 150px;
+}
+.half-width {
+    width: 50%;
+    padding: 2%;
+}
+.half-width p {
+    color: #828282;
+}
+.half-width img {
+    width: 80%;
+}
+h1 {
+    color: #575757;
+    font-size: 50px;
+}
+.orange {
+    color: orange;
+}
+.order-food-btn {
+    color:#fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+}
+.about-section {
+    background: url(/images/shapes/7.png) center/cover no-repeat;
+}
+.half-width .about-img {
+    width: 50%;
+    position: relative;
+    top: 45px;
+    padding-top: 20px;
+}
+.about-text {
+    margin-top: 180px;
+}
+.recipe-top-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card-area {
+    justify-content: space-evenly;
+}
+.card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 30px lightgray;
+}
+.card img {
+    width: 100%;
+}
+.social-stats {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 80px;
+    justify-content: space-around;
+    box-shadow: 8px 8px 30px lightgray;
+}
+.stats {
+    width: 30%;
+    text-align: center;
+}
+.footer-area {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0B0D17;
+}
