@@ -44,7 +44,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(/images/shapes/about.png) ;
+    background-image: url(../images/shapes/about.png) ;
 }
 .half-width .about-img {
     width: 50%;
